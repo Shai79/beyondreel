@@ -1,162 +1,164 @@
- <!DOCTYPE html>                                                                                                       
-  <html lang="en">
-    <head>                                                                                                              
-      <meta charset="UTF-8">                                      
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">                                            
-      <title>BeyondReel</title>                                   
-      <style>                                                                                                         
-        * { box-sizing: border-box; }                                                                                   
-   
-        body {                                                                                                          
-          margin: 0;                                              
-          font-family: Arial, sans-serif;                                                                             
-          background: #111;                                                                                             
-          color: #fff;
-          text-align: center;                                                                                           
-          padding: 40px 20px;                                     
-        }                                                                                                               
-   
-        .container {                                                                                                    
-          max-width: 900px;                                       
-          margin: 0 auto;                                                                                             
-        }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeyondReel</title>
+  <style>
+    * { box-sizing: border-box; }
 
-        h1 {                                                                                                            
-          font-size: 48px;
-          margin-bottom: 10px;                                                                                          
-        }                                                         
-                                                                                                                      
-        h1 span { color: #FFC107; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
 
-        p.subtitle {
-          font-size: 20px;
-          color: #ccc;                                                                                                  
-          margin-bottom: 30px;
-        }                                                                                                               
-                                                                  
-        .video-wrap {                                                                                                 
-          position: relative;
-          width: 100%;                                                                                                  
-          padding-top: 56.25%;
-          border-radius: 12px;                                                                                          
-          overflow: hidden;                                       
-          background: #000;                                                                                           
-        }
-                                                                                                                        
-        .video-wrap iframe {
-          position: absolute;                                                                                           
-          top: 0; left: 0;                                        
-          width: 100%; height: 100%;                                                                                  
-          border: 0;
-        }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
 
-        .section-label {                                                                                                
-          font-size: 13px;
-          font-weight: 700;                                                                                             
-          letter-spacing: 2px;                                    
-          text-transform: uppercase;                                                                                  
-          color: #aaa;
-          margin: 50px 0 14px;
-        }
-                                                                                                                        
-        .two-col {
-          display: grid;                                                                                                
-          grid-template-columns: 1fr 1fr;                         
-          gap: 24px;                                                                                                  
-          text-align: left;
-        }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
 
-        .video-card h3 {
-          font-size: 15px;
-          font-weight: 700;                                                                                             
-          color: #fff;
-          margin: 0 0 10px;                                                                                             
-        }                                                         
-                                                                                                                      
-        @media (max-width: 600px) {
-          .two-col { grid-template-columns: 1fr; }
-          h1 { font-size: 34px; }                                                                                       
-        }
-                                                                                                                        
-        .btn-contact {                                            
-          display: inline-block;                                                                                      
-          margin-top: 48px;
-          padding: 14px 40px;                                                                                           
-          background: #FFC107;
-          color: #111;                                                                                                  
-          font-size: 16px;                                        
-          font-weight: 700;                                                                                           
-          text-decoration: none;
-          border-radius: 8px;
-          letter-spacing: 0.5px;                                                                                        
-          transition: background 0.2s;
-        }                                                                                                               
-                                                                  
-        .btn-contact:hover { background: #e6ad00; }                                                                   
+    h1 span { color: #FFC107; }
 
-        .links {
-          margin-top: 20px;
-        }                                                                                                               
-   
-        .links a {                                                                                                      
-          color: #888;                                            
-          text-decoration: none;                                                                                      
-          margin: 0 10px;
-          font-size: 15px;
-        }
+    p.subtitle {
+      font-size: 20px;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
 
-        .links a:hover { color: #fff; }                                                                                 
-      </style>
-    </head>                                                                                                             
-    <body>                                                        
-      <div class="container">                                                                                         
+    .video-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #000;
+    }
 
-        <h1>Beyond<span>Reel</span></h1>
-        <p class="subtitle">AI Video Portfolio by Shai Rodogovsky</p>
-                                                                                                                        
+    .video-wrap iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+
+    .section-label {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #aaa;
+      margin: 50px 0 14px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      text-align: left;
+    }
+
+    .video-card h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 10px;
+    }
+
+    @media (max-width: 600px) {
+      .two-col { grid-template-columns: 1fr; }
+      h1 { font-size: 34px; }
+    }
+
+    .btn-contact {
+      display: inline-block;
+      margin-top: 48px;
+      padding: 14px 40px;
+      background: #FFC107;
+      color: #111;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 8px;
+      letter-spacing: 0.5px;
+      transition: background 0.2s;
+    }
+
+    .btn-contact:hover { background: #e6ad00; }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      color: #888;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 15px;
+    }
+
+    .links a:hover { color: #fff; }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Beyond<span>Reel</span></h1>
+    <p class="subtitle">AI Video Portfolio by Shai Rodogovsky</p>
+
+    <!-- Main showreel -->
+    <div class="video-wrap">
+      <iframe
+        src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=Reel_Cut_01_rgqob6"
+        allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Secondary videos -->
+    <p class="section-label">Recent Work</p>
+
+    <div class="two-col">
+      <div class="video-card">
+        <h3>AI ad for base 360</h3>
         <div class="video-wrap">
-          <iframe                                                                                                       
-            src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=Reel_Cut_01_rgqob6"
-            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"                                           
-            allowfullscreen>                                                                                            
-          </iframe>                                                                                                     
-        </div>                                                                                                          
-                                                                                                                      
-        <p class="section-label">Recent Work</p>                                                                        
-   
-        <div class="two-col">                                                                                           
-          <div class="video-card">                                
-            <h3>AI test ad for property management company</h3>                                                       
-            <div class="video-wrap">
-              <iframe
-                src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=base360_commercial_dzjany"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"                                       
-                allowfullscreen>
-              </iframe>                                                                                                 
-            </div>                                                                                                      
-          </div>                                                                                                      
-                                                                                                                        
-          <div class="video-card">                                
-            <h3>YouTube CEO test video for Digital Finance Company</h3>                                               
-            <div class="video-wrap">
-              <iframe
-                src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=shai_ceo_intro_xbvf9b"
-                allow="autoplay; fullscreen; encrypted-media; picture-in-picture"                                       
-                allowfullscreen>
-              </iframe>                                                                                                 
-            </div>                                                
-          </div>                                                                                                        
-        </div>                                                    
-                                                                                                                      
-        <a class="btn-contact" href="mailto:beyondreelai@gmail.com">Contact Us</a>
+          <iframe
+            src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=base360_commercial_dzjany"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
 
-        <div class="links">
-          <a href="mailto:beyondreelai@gmail.com">Email</a>
-          <a href="https://www.thetalentmanager.com/talent/31375/shai-rodogovsky" target="_blank" rel="noopener noreferrer">Broadcast Credits</a>
-          <a href="https://www.linkedin.com/in/shai-rodogovsky-5844001a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>                                                                                                          
-                                                                                                                        
-      </div>                                                                                                          
-    </body>                                                                                                             
-  </html>                 
+      <div class="video-card">
+        <h3>YouTube CEO video for Crypto Banter</h3>
+        <div class="video-wrap">
+          <iframe
+            src="https://player.cloudinary.com/embed/?cloud_name=dwibe3rjs&public_id=shai_ceo_intro_xbvf9b"
+            allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
 
+    <!-- Contact -->
+    <a class="btn-contact" href="mailto:beyondreelai@gmail.com">Contact Us</a>
+
+    <div class="links">
+      <a href="mailto:beyondreelai@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/shai-rodogovsky-5844001a/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.thetalentmanager.com/talent/31375/shai-rodogovsky" target="_blank" rel="noopener noreferrer">Talent Manager</a>
+    </div>
+
+  </div>
+</body>
+</html>
